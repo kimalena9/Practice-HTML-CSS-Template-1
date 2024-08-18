@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  background-color: #f0f0f0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.social-profile-card {
+  background-color: hsl(0, 0%, 8%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 24px;
+  color: hsl(0, 0%, 100%);
+}
+
+.profile-info p {
+  font-style: italic;
+  color: hsl(0, 0%, 100%);
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+}
+
+.links {
+  color: hsl(0, 0%, 100%);
+}
+
+.links ul {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+.links li {
+  border: 2px solid hsl(0, 0%, 20%);
+  border-radius: 5px;
+  background: hsl(0, 0%, 20%);
+  padding-top: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 15px;
+  margin: 10px;
+  text-align: center;
+}
